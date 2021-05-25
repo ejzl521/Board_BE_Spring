@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class BoardController {
-    private final BoardMapper boardMapper;
+    private final BoardMapper boardMapper; //
 
     @PostMapping("/board")
     public ResultVO addBoard(@RequestBody BoardVO boardVO) {//body에 BoardVO 객체를 넣어서 board 테이블에 삽입.
